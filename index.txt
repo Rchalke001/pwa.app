@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <script src="https://kit.fontawesome.com/632f83d8a4.js" crossorigin="anonymous"></script>
+    <title>Responsive UI</title>
+</head>
+
+<body>
+    <nav>
+        <div class="brand">
+            <h1><a href="/index.html">Brand</a></h1>
+        </div>
+        <div class="nav-menu active">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <script>
+const toggle = document.getElementsByClassName("toggle-btn")[0];
+const navLinks = document.getElementsByClassName("nav-menu")[0];
+
+toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active')
+});
+    </script>
+
+<div class="cards">
+    <div class="card">
+        <div class="upper">
+            <h3>Burger</h3>
+            <img src="/images/burger.jpg" alt="Burger">
+        </div>
+        <div class="lower">
+            <p>Cheese Burger with Lettuce, Tomato, Onions, Pickle, Aioli and a juicy meat Patty</p>
+            <br>
+            <p>Price: $2</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="upper">
+            <h3>Burger</h3>
+            <img src="/images/burger.jpg" alt="Burger">
+        </div>
+        <div class="lower">
+            <p>Cheese Burger with Lettuce, Tomato, Onions, Pickle, Aioli and a juicy meat Patty</p>
+            <br>
+            <p>Price: $2</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="upper">
+            <h3>Burger</h3>
+            <img src="/images/burger.jpg" alt="Burger">
+        </div>
+        <div class="lower">
+            <p>Cheese Burger with Lettuce, Tomato, Onions, Pickle, Aioli and a juicy meat Patty</p>
+            <br>
+            <p>Price: $2</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="upper">
+            <h3>Burger</h3>
+            <img src="/images/burger.jpg" alt="Burger">
+        </div>
+        <div class="lower">
+            <p>Cheese Burger with Lettuce, Tomato, Onions, Pickle, Aioli and a juicy meat Patty</p>
+            <br>
+            <p>Price: $2</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="upper">
+            <h3>Burger</h3>
+            <img src="/images/burger.jpg" alt="Burger">
+        </div>
+        <div class="lower">
+            <p>Cheese Burger with Lettuce, Tomato, Onions, Pickle, Aioli and a juicy meat Patty</p>
+            <br>
+            <p>Price: $2</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="upper">
+            <h3>Burger</h3>
+            <img src="/images/burger.jpg" alt="Burger">
+        </div>
+        <div class="lower">
+            <p>Cheese Burger with Lettuce, Tomato, Onions, Pickle, Aioli and a juicy meat Patty</p>
+            <br>
+            <p>Price: $2</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="upper">
+            <h3>Burger</h3>
+            <img src="/images/burger.jpg" alt="Burger">
+        </div>
+        <div class="lower">
+            <p>Cheese Burger with Lettuce, Tomato, Onions, Pickle, Aioli and a juicy meat Patty</p>
+            <br>
+            <p>Price: $2</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="upper">
+            <h3>Burger</h3>
+            <img src="/images/burger.jpg" alt="Burger">
+        </div>
+        <div class="lower">
+            <p>Cheese Burger with Lettuce, Tomato, Onions, Pickle, Aioli and a juicy meat Patty</p>
+            <br>
+            <p>Price: $2</p>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
