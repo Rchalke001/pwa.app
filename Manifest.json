@@ -1,0 +1,17 @@
+
+{
+    "name":"Responsive UI",
+    "short_name":"Res UI",
+    "start_url":"/index.html",
+    "display":"standalone",
+    "background_color":"#139487",
+    "theme_color":"#fff",
+    "orientation":"portrait",
+    "icons":[
+        {
+            "src":"/images/burger.png",
+            "type":"image/png",
+            "sizes":"128x128"
+        }
+    ]
+}
